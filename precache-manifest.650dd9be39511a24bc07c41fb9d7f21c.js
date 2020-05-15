@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1be14c143be0fabd8c55a667ab7df81",
+    "revision": "278c2a6e72d03a163588ad083fc5aaf5",
     "url": "/SkullKingScorer/index.html"
   },
   {
-    "revision": "fb8d657e66d02bc0767e",
+    "revision": "1888acc8e52852e61fc9",
     "url": "/SkullKingScorer/static/css/main.8c59a8eb.chunk.css"
   },
   {
-    "revision": "e4b714ca7260a8690240",
-    "url": "/SkullKingScorer/static/js/2.0c1701aa.chunk.js"
+    "revision": "4be173eff4196052cb6b",
+    "url": "/SkullKingScorer/static/js/2.544ef006.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/SkullKingScorer/static/js/2.0c1701aa.chunk.js.LICENSE.txt"
+    "url": "/SkullKingScorer/static/js/2.544ef006.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb8d657e66d02bc0767e",
-    "url": "/SkullKingScorer/static/js/main.a0d6958f.chunk.js"
+    "revision": "1888acc8e52852e61fc9",
+    "url": "/SkullKingScorer/static/js/main.fd1aa917.chunk.js"
   },
   {
     "revision": "4b9f1673c352338940ac",
