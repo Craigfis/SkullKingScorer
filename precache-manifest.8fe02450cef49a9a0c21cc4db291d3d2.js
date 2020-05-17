@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3364cc5365f8e1335c980c9a94fc5d6",
+    "revision": "0d306896be7d809ce3ef6e80c8de8dc2",
     "url": "/SkullKingScorer/index.html"
   },
   {
-    "revision": "cc1693f00ca4ae06e954",
+    "revision": "4f439a5ccacf2d5ba655",
     "url": "/SkullKingScorer/static/css/main.8c59a8eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SkullKingScorer/static/js/2.544ef006.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc1693f00ca4ae06e954",
-    "url": "/SkullKingScorer/static/js/main.bd6b9913.chunk.js"
+    "revision": "4f439a5ccacf2d5ba655",
+    "url": "/SkullKingScorer/static/js/main.b2b65f9a.chunk.js"
   },
   {
     "revision": "4b9f1673c352338940ac",
