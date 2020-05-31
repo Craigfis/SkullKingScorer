@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SkullKingScorer/static/css/main.e0701ff1.chunk.css",
-    "main.js": "/SkullKingScorer/static/js/main.e7214f9b.chunk.js",
-    "main.js.map": "/SkullKingScorer/static/js/main.e7214f9b.chunk.js.map",
+    "main.js": "/SkullKingScorer/static/js/main.b9be22e2.chunk.js",
+    "main.js.map": "/SkullKingScorer/static/js/main.b9be22e2.chunk.js.map",
     "runtime-main.js": "/SkullKingScorer/static/js/runtime-main.396f35eb.js",
     "runtime-main.js.map": "/SkullKingScorer/static/js/runtime-main.396f35eb.js.map",
     "static/js/2.125503e9.chunk.js": "/SkullKingScorer/static/js/2.125503e9.chunk.js",
     "static/js/2.125503e9.chunk.js.map": "/SkullKingScorer/static/js/2.125503e9.chunk.js.map",
     "index.html": "/SkullKingScorer/index.html",
-    "precache-manifest.0ccaf02d5831e62742428373f94055de.js": "/SkullKingScorer/precache-manifest.0ccaf02d5831e62742428373f94055de.js",
+    "precache-manifest.17851143ced1a82a520523a294f85a87.js": "/SkullKingScorer/precache-manifest.17851143ced1a82a520523a294f85a87.js",
     "service-worker.js": "/SkullKingScorer/service-worker.js",
     "static/css/main.e0701ff1.chunk.css.map": "/SkullKingScorer/static/css/main.e0701ff1.chunk.css.map",
     "static/js/2.125503e9.chunk.js.LICENSE.txt": "/SkullKingScorer/static/js/2.125503e9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.396f35eb.js",
     "static/js/2.125503e9.chunk.js",
     "static/css/main.e0701ff1.chunk.css",
-    "static/js/main.e7214f9b.chunk.js"
+    "static/js/main.b9be22e2.chunk.js"
   ]
 }
