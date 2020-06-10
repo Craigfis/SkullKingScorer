@@ -51,6 +51,11 @@ const PlayerRound: FunctionComponent<PlayerRoundProps> = ( {cardCount, prevRound
     recordBid(player, newbid);
   };
 
+  let [bet, setBet] = useState(0);
+  const placeRascalOfRoatanBet = (betAmount: number) => {
+    setBet(betAmount);
+  };
+
   let [score, setScore] = useState(0);
   useEffect(() => {
     if (roundMode === RoundModes.Completed) {
@@ -58,7 +63,7 @@ const PlayerRound: FunctionComponent<PlayerRoundProps> = ( {cardCount, prevRound
       recordScore(player, score + prevRoundScore);
       setScore(score);
     }
-  }, [roundMode, bid, bonus, player, score, prevRoundScore, recordScore, cardCount, tricks]);
+  }, [roundMode, bid, bonus, player, score, prevRoundScore, recordScore, cardCount, tricks, bet]);
 
   const trickPlayed = (): void => {
     setTricks(tricks + 1);
@@ -71,11 +76,6 @@ const PlayerRound: FunctionComponent<PlayerRoundProps> = ( {cardCount, prevRound
 
   const adjustBid = (bidChange: number): void => {
     setBid(Math.max(0,Math.min(bid + bidChange, cardCount)));
-  };
-
-  let [bet, setBet] = useState(0);
-  const placeRascalOfRoatanBet = (betAmount: number) => {
-    setBet(betAmount);
   };
 
   let backgroundColor =  winning ? 'rgba(255,215,0,0.6)'

@@ -9,8 +9,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(1px + 2vmin);
   color: white;
 }
@@ -23,3 +21,90 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
+#viewswitchbutton {
+  width: 180px;
+}
+#mainspace {
+  min-height: 600px;
+  align-items: flex-start;
+  left: 20px;
+  padding-left: 20px;
+}
+#history {
+  width: 100px;
+  min-height: 400px;
+  min-width: 500px;
+  border: dashed;
+  position: fixed;
+}
+.history {
+  animation: enter 1.0s ease 0s 1 normal none;
+}
+.history-hidden {
+  animation: exit 1.0s ease 0s 1 normal none;
+}
+
+@keyframes exit {
+  0% {
+    left: 1600px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+@keyframes enter {
+  0% {
+    left: 20px;
+  }
+  100% {
+    left: -1600px;
+  }
+}
+.scoresheet {
+  animation: enter 1.0s ease 0s 1 normal none;
+  position: fixed;
+}
+.scoresheet-hidden {
+  animation: exit 1.0s ease 0s 1 normal none;
+  position: fixed;
+  display: none;
+}
+/* .scoresheet {
+  pxosition: absolute;
+}
+.scoresheet-appear {
+  opacity: 0;
+  position: absolute;
+  transform: scale(0.1);
+  transform: translateX(1000)
+}
+.scoresheet-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transform: scale(1);
+  transition: opacity 1300ms, transform 1300ms;
+}
+.scoresheet-exit {
+  transform: translate(0%);
+}
+.scoresheet-exit-active {
+  transform: translate(-100%);
+  transition: transform 1000ms ease-in-out;
+}
+.history-enter {
+  opacity: 0;
+  transform: translateX(1000);
+  transform: rotate(0.9);
+}
+.history-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1300ms, transform 1300ms;
+}
+.history-exit {
+  transform: translate(0%);
+}
+.history-exit-active {
+  transform: translate(-100%);
+  transition: transform 1000ms ease-in-out;
+} */
