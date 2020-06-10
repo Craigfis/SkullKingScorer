@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SkullKingScorer/precache-manifest.17851143ced1a82a520523a294f85a87.js"
+  "/SkullKingScorer/precache-manifest.2963dc1314fb463785c52dff2f59e27e.js"
 );
 
 self.addEventListener('message', (event) => {
